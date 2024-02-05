@@ -1,0 +1,29 @@
+/* Styles for spoken text */
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+/* Styles for non-spoken directions */
+.direction {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    color: black;
+    background-color: #f5f5f5; /* Light gray background color */
+}
+
+/* Hover effect for directions */
+.direction:hover {
+    background-color: #dcdcdc; /* Lighter gray background color on hover */
+    color: white; /* White text color on hover */
+}
+
+/* Styles for character names */
+.ivanoff {
+    color: blue; /* Example color for character Ivanoff */
+}
+
+.borkin {
+    color: green; /* Example color for character Borkin */
+}
