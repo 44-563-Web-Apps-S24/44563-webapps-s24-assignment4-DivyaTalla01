@@ -27,3 +27,25 @@
 .borkin {
     color: green; /* Example color for character Borkin */
 }
+.character-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.character-table th, .character-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+.character-table th {
+    background-color: #f2f2f2;
+}
+
+.character-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.character-table tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
