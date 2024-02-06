@@ -49,3 +49,18 @@
 .character-table tbody tr:nth-child(odd) {
     background-color: #fff;
 }
+
+/* Styles for character names */
+.ivanoff,
+.borkin {
+    color: blue; /* Example color for character Ivanoff */
+    transition: box-shadow 0.3s, border 0.3s; /* Adding transition for smooth animation */
+}
+
+/* Hover effect for character names */
+.ivanoff:hover,
+.borkin:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Example shadow with blur */
+    border: 2px solid #ff0000; /* Example border color */
+}
+
